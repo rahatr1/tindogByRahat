@@ -9,7 +9,7 @@ body{
 }
 
 .container-fluid{
-     padding: 3% 15%;
+     padding: 3% 15% 7%;
 }
 h1{
     font-family: "Montserrat" ;
@@ -52,7 +52,10 @@ h3{
 }
  .title-image{
     width: 60%;
-    transform: rotate(25deg);
+    transform: rotate(25deg); 
+    position: absolute;
+    right: 30%;
+
  }
  #features{
     padding: 7% 15%;
@@ -113,4 +116,9 @@ h3{
 
 .pricingh2{
     padding: 0%;
+}
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
