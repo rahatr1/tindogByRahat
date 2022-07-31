@@ -59,6 +59,15 @@ h3{
  }
  @media  (max-width: 1080px){
 
+    h1{
+        font-size: 2.5rem;
+    }
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
   
     .title-image{
 
