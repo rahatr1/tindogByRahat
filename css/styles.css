@@ -91,11 +91,8 @@ i {
 /* div's */
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 3% 10% 7%;
 }
-
-
-
 .navbar {
     padding: 0 0 4.5rem 0;
 }
@@ -118,7 +115,7 @@ i {
 }
 
 .download-button {
-    margin: 5% 3% 8%;
+    margin: 5% 1% 8%;
     padding-bottom: 0%;
 }
 
@@ -128,20 +125,13 @@ i {
     position: absolute;
     right: 30%;
 }
-
+.text-inside {
+    text-align: center;
+}
 .ctah3 {
     font-size: 2.5rem;
 
 }
-
-.features {
-    padding: 5%;
-}
-
-.text-inside {
-    text-align: center;
-}
-
 .awsome {
     color: #ef8172;
 
@@ -157,7 +147,6 @@ i {
     margin: 20px;
 }
 
-
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
@@ -167,23 +156,11 @@ i {
     padding: 7% 15%;
 }
 
-.pricing1 {
-    padding: 3% 2%;
-}
-
-.pricingh2 {
-    padding: 0%;
-}
-
-
 /* Responsive section */
 
 @media (max-width: 1080px) {
 
     /* elements */
-    h1 {
-        font-size: 2.5rem;
-    }
 
     h3 {
         font-size: 2rem;
@@ -192,6 +169,7 @@ i {
     h1 {
         font-family: "Montserrat";
         font-weight: 900;
+        font-size: 2.5rem;
     }
 
     a {
